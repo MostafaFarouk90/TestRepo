@@ -9,6 +9,8 @@ public class TossBall : MonoBehaviour
     public Image forceSlider;
     public Text triesCounterText;
 
+    public AudioClip BackgroundMusicClip;
+
     float currentforce;
     Vector3 initialPosition;
     Rigidbody rb;
